@@ -32,7 +32,10 @@ const Login = () => {
   return (
     <div className="container">
       <div className="wrapper">
-        <h1>Hush kelibsiz</h1>
+        <div className="top">
+          <h1>Hush kelibsiz</h1>
+          
+        </div>
         <Form onFinish={login}>
           <Form.Item
             name="email"
